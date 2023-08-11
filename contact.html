@@ -1,5 +1,5 @@
 <head>
-  <title>Contact_Hamro Electronics</title>
+  <title>Contact|Hamro Electronics</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,7 +14,7 @@
     </nav>
   </header>
   <h1>Contact Us</h1>
-    <p>Follow us on social media:</p>
+   <footer><p>Follow us on social media:</p>
     <a href=" https://www.facebook.com/birat.tripathee.9?mibextid=ZbWKwL" target="_blank">
         <img src="image/facebook_logo.png" alt="Facebook" width="80" height="80">
     </a>
@@ -26,16 +26,19 @@
     </a>
 
     <p>You can also reach out to us via: <a href="mailto:birattripathee.gandaki@gmail.com">Email</a></p>
+   </footer>
 </body>
 </html>
-<main>
+<main> 
+  <body>
     <h2>For any querries</h2>
     <form action="process_contact_form.php" method="POST">
-      <label for="name">Your Name:</label>
-      <input type="text" id="name" name="name" required>
-      <br>
+      <label for="name" >Your Name:</label>
+      <input type="text" id="name" placeholder="Rohit Sharma" name="name" required><br>
+      <label for="phone">Contact number:</label>
+  <input type="tel" id="phone" name="phone" placeholder="9869081959" required><br>
       <label for="email">Your Email:</label>
-      <input type="email" id="email" name="email" required>
+      <input type="email" id="email" placeholder="mgrrohit@gmail.com" name="email" required>
       <br>
       <label for="message">Message:</label>
       <textarea id="message" name="message" rows="4" required></textarea>
